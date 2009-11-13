@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Preferences…</string>
+	<key>settings</key>
+	<dict>
+		<key>shellVariables</key>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>TM_YUI_COMPRESSOR_LOCATION</string>
+				<key>value</key>
+				<string>/absolute/path/to/yui-compressor.jar</string>
+			</dict>
+		</array>
+	</dict>
+	<key>uuid</key>
+	<string>173220B5-961F-4FD3-A377-436A3E0C8794</string>
+</dict>
+</plist>
