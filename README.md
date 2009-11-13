@@ -29,8 +29,8 @@ Select the files you want to run through the YUI Compressor in the Project Drawe
 
 The compressed files share the same path as the original files, with the addition of `.min` before the file extension. For example:
 
-`my_js_file.js` becomes `my_js_file.min.js`
-`my_css_file.css` becomes `my_css_file.min.css`
+* `my_js_file.js` becomes `my_js_file.min.js`
+* `my_css_file.css` becomes `my_css_file.min.css`
 
 You can compress more than one file at the same time, just select all the files you want to compress in your Project Drawer before hitting `Compress`.
 
