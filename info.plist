@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>YUI Compressor</string>
+	<key>ordering</key>
+	<array>
+		<string>173220B5-961F-4FD3-A377-436A3E0C8794</string>
+		<string>66F1C123-BAB3-42B4-9A8D-10E98CB6E2A7</string>
+		<string>2A04BB78-E29E-4D1D-86DC-5AA653BD8418</string>
+	</array>
+	<key>uuid</key>
+	<string>7E4958A8-0B0A-4A76-9D0E-503A02B02B40</string>
+</dict>
+</plist>
