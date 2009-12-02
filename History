@@ -1,3 +1,7 @@
+0.2.1 - December 02, 2009
+            * [Bugfix]  Fixed "java.io" errors when compressing files with spaces in the name/path
+            * [Bugfix]  Long filenames are now shortened rather than being hidden in the progress dialog
+            
 0.2.0 - November 13, 2009
             * Initial public release
             * This is a port of my Google Closure Compiler tmbundle to use the YUI Compressor library instead. Groovy.
