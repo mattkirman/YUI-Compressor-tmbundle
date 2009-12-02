@@ -51,8 +51,8 @@ TextMate.call_with_progress(:title => 'YUI Compressor', :summary => 'Starting up
 		i += 1
 		
 		short_file_name = file
-		if file.length > 51 then	
-			short_file_name = " #{file[0,24]}...#{file[-24,24]}"
+		if file.length > 47 then	
+			short_file_name = " #{file[0,20]}...#{file[-20,20]}"
 		end
 		
 		# Move the progress bar along a bit
@@ -66,7 +66,7 @@ TextMate.call_with_progress(:title => 'YUI Compressor', :summary => 'Starting up
 			output_file = file.gsub(/.(js|css)$/, '.min\0')
 			
 			# Create the call to the Compressor
-			cmd = "java -jar #{compressor} --nomunge -o #{output_file} #{file}"
+			cmd = "java -jar \"#{compressor}\" --nomunge -o \"#{output_file}\" \"#{file}\""
 			result = system(cmd)
 			
 			# If the compressor ran successfully then we ought to tell the user...
